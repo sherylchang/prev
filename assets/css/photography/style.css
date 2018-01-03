@@ -1,0 +1,206 @@
+body {
+	margin: 0px;
+}
+
+.menu-item {
+	display: inline-block;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.link {
+	padding-bottom: 8px;
+	border-bottom: 2.5px solid white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 23px;
+}
+
+.link a {
+	text-decoration: none;
+	color: #424242;
+}
+
+.link:hover {
+	transition: 0.75s;
+	padding-bottom: 8px;
+	border-bottom: 2.5px solid #424242;
+	cursor: pointer;
+}
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav-bar {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 80px;
+}
+
+#name {
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	letter-spacing: 8px;
+	color: #424242;
+	margin-bottom: 10px;
+}
+
+#quote {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #424242; 
+	letter-spacing: 3px;
+}
+
+#title {
+	text-align: center;
+}
+
+#top {
+	margin-top: 50px;
+}
+
+.photo-container {
+	float: left;
+	width: 33.33%;
+	height: 375px;
+}
+
+.photo-container img {
+	height: 100%;
+ 	width: 100%;
+ 	object-fit: cover;
+}
+
+.photo-container img:hover {
+	opacity: 0.35;
+	transition: 0.75s;
+	cursor: pointer;
+}
+
+#albums {
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	letter-spacing: 4px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-weight: 700;
+	/*margin-left: 5px;*/
+}
+
+#albums a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #424242;
+}
+
+#arrow {
+	display: inline-block;
+	width: 40px;
+	height: 16px;
+}
+
+#arrow a {
+	cursor: pointer;
+}
+
+#arrow img {
+	height: 100%;
+ 	width: 100%;
+ 	object-fit: cover;
+}
+
+#back {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.row {
+	height: 375px;
+}
+
+.modal-container {
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	display: none;
+}
+
+.modal-overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+	z-index: 50;
+	position: absolute;
+}
+
+.modal-box {
+	width: 900px;
+    height: 590px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    /*left: 19%;*/
+    top: 50%;
+	transform: translateY(-50%);
+}
+
+.photo {
+	width: 900px;
+    height: 590px;
+}
+
+.photo img {
+	height: 100%;
+ 	width: 100%;
+ 	object-fit: cover;
+}
+
+.close {
+	width: 25px;
+	height: 25px;
+	z-index: 100;
+	position: absolute;
+	margin-top: 70px;
+	right: 4%;
+	cursor: pointer;
+}
+
+.close img {
+	height: 100%;
+ 	width: 100%;
+ 	object-fit: cover;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+	.menu-item {
+		margin-top: 20px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	#quote {
+		display: none;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	
+	.menu-item {
+		margin-top: 20px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	#quote {
+		display: none;
+	}
+}

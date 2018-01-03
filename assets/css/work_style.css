@@ -1,0 +1,177 @@
+.menu-item {
+	display: inline-block;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.link {
+	padding-bottom: 8px;
+	border-bottom: 2.5px solid white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 23px;
+}
+
+#work {
+	border-bottom: 2.5px solid #424242;
+}
+
+.link a {
+	text-decoration: none;
+	color: #424242;
+}
+
+.link:hover {
+	transition: 0.75s;
+	padding-bottom: 8px;
+	border-bottom: 2.5px solid #424242;
+	cursor: pointer;
+}
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav-bar {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 80px;
+}
+
+.section-box {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	color: #616161;
+}
+
+.section-title {
+	font-size: 32px;
+	margin-bottom: 5px;
+}
+
+.section-text {
+	font-size: 22px;
+	margin-top: 2px;
+}
+
+.section-date {
+	font-size: 16px;
+	margin-top: 2px;
+}
+
+#skills {
+	font-family: 'Lato', sans-serif;
+	margin-top: 85px;
+	margin-bottom: 20px;
+	/*position: relative;
+	left: 500px;*/
+	text-align: center;
+}
+
+#languages {
+	font-family: 'Lato', sans-serif;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	/*position: relative;
+	left: 500px;*/
+	text-align: center;
+}
+
+.bottom-title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	color: #424242;
+}
+
+.bottom-text {
+	word-spacing: 30px;
+	font-size: 18px;
+	margin-top: 10px;
+	color: #616161;
+}
+
+.bold {
+	/*background-color: #424242;*/
+	/*padding: 2px 8px 2px 8px;*/
+	/*color: white;*/
+	font-weight: 700;
+	color: #424242;
+	border-bottom: 2px solid white;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+	.menu-item {
+		margin-top: 14px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	#skills {
+		margin-top: 150px;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 319px) {
+
+	.menu-item {
+		margin-top: 14px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	#skills {
+		margin-top: 150px;
+	}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	.menu-item {
+		margin-top: 14px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	#skills {
+		margin-top: 150px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	
+	.menu-item {
+		margin-top: 14px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	#skills {
+		margin-top: 150px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+	.menu-item {
+		margin-top: 14px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	#skills {
+		margin-top: 150px;
+	}
+}

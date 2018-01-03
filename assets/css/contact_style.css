@@ -1,0 +1,156 @@
+.menu-item {
+	display: inline-block;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.link {
+	padding-bottom: 8px;
+	border-bottom: 2.5px solid white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 23px;
+}
+
+#contact {
+	border-bottom: 2.5px solid #424242;
+}
+
+.link a {
+	text-decoration: none;
+	color: #424242;
+}
+
+.link:hover {
+	transition: 0.75s;
+	padding-bottom: 8px;
+	border-bottom: 2.5px solid #424242;
+	cursor: pointer;
+}
+
+#menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav-bar {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 85px;
+}
+
+#photo {
+	width: 525px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+body {
+	margin: 0px;
+}
+
+#email {
+	text-align: center; 
+	font-family: 'Lato', sans-serif;
+	font-size: 33px;
+	margin-top: 40px;
+	color: #424242;
+	letter-spacing: 4px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+#social-media {
+	text-align: center;
+}
+
+.social {
+	display: inline-block;
+}
+
+.social img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#fb {
+	height: 55px;
+	width: 55px;
+}
+
+#ig {
+	height: 55px;
+	width: 55px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.menu-item {
+		margin-top: 20px;
+		margin-left: 35px;
+		margin-right: 35px;
+		margin-bottom: 50px;
+	}
+
+	#photo {
+		width: 625px;
+		height: 625px;
+		margin: 0 auto;
+	}
+
+	#email {
+		font-size: 40px;
+		margin-top: 80px;
+		margin-bottom: 60px;
+	}
+
+	#fb {
+		height: 80px;
+		width: 80px;
+	}
+
+	#ig {
+		height: 80px;
+		width: 80px;
+	}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.menu-item {
+		margin-top: 20px;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+	#email {
+		font-size: 40px;
+		margin-top: 80px;
+		margin-bottom: 60px;
+	}
+
+	#photo {
+		width: 600px;
+		height: 450px;
+		margin: 0 auto;
+	}
+
+	#fb {
+		height: 70px;
+		width: 70px;
+	}
+
+	#ig {
+		height: 70px;
+		width: 70px;
+	}
+
+}
